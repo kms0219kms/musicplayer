@@ -1,0 +1,62 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT@2.0.1/fonts/variable/woff2/SUIT-Variable.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "SUIT Variable", "Pretendard Variable", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+
+  position: absolute;
+  z-index: -1;
+
+  filter: brightness(0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.image-wrapper {
+  height: 250px;
+  width: 250px;
+  background: #000000;
+}
+
+.image-wrapper div {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.metadata {
+  text-align: center;
+}
+
+.metadata .title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.metadata .artist {
+  color: #dddddd;
+  font-size: 13px;
+  font-weight: lighter;
+}
